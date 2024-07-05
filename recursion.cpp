@@ -268,3 +268,30 @@ int main(){
 //     int t=printsubseq(0,arr,sum);
 //     cout<<"present or not "<<
 // }
+// using namespace std;
+// void print(int n){
+//   if(n==-1){
+//     return;
+//   }
+//   print(n-1);
+//   cout<<n;
+// }
+// int main(){
+//   print(4);
+// }
+
+//factorial 
+using namespace std;
+int factorial(int n){
+  if(n==0){
+    return 1;}
+    int k=n*factorial(n-1);
+    return k;
+
+}
+int main(){
+  int n=4;
+  int k=factorial(n);
+  cout<<endl;
+  cout<<k;
+}
